@@ -378,6 +378,20 @@ hr {
 
 /* media queries */
 
+@media (min-width: 992px) {
+    .about {
+        background-color: #F05F40;
+        width: 100vw;
+        height: 67vh;
+        position: relative;
+        z-index: -1;
+        display: table;
+        margin: 0;
+        max-width: none;
+        padding-top: 5em;
+    }
+}
+
 @media (max-width: 992px) {
     .main-nav {
         display: none;
